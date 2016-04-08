@@ -53,7 +53,7 @@ footer {
   font-family: sans-serif;
   margin-top: 2em;
   padding: 1em 0;
-  background: #2a0;
+  background: #A9E5BB;
   color: #fff;
 }
 
@@ -70,7 +70,7 @@ article img {
 
 footer a {
   font-weight: bold;
-  color: #A9E5BB;
+  color: #fff;
 }
 
 @media screen and (max-width: 600px) {
