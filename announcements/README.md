@@ -108,5 +108,5 @@ Also on Patreon at [patreon.com/devict](https://patreon.com/devict)
 
 ## Tonight's event!
 
-Kotlin: From Russia with Love...ly Syntax
-Jacob Moore
+* Kotlin: From Russia with Love...ly Syntax
+* Jacob Moore
