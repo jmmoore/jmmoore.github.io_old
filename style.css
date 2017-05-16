@@ -1,97 +1,109 @@
 * {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body, html {
-  height: 100%;
+    height: 100%;
 }
 
 a {
-  color: #2a0;
+    color: #2a0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 22px;
-  line-height: 1.6em;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.6em;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    background: #FFF;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
-section, header {
-  width: 100%;
-  max-width: 960px;
-  padding: 0 1em;
-  margin: 0 auto;
+section, header{
+    width: 100%;
+    max-width: 960px;
+    padding: 0 1em;
+    margin: 0 auto;
 }
+
+main {
+    width: 100%;
+    max-width: 960px;
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+
 
 .site {
-  flex: 1;
+    flex: 1;
 }
 
 p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 header {
-  padding: 1em;
+    padding: 1em;
 }
 
 footer {
-  font-family: sans-serif;
-  margin-top: 2em;
-  padding: 1em 0;
-  background: #7BE59B;
-  color: #fff;
+    font-family: sans-serif;
+    padding: .5em 0;
+    background: #420451;
+    color: #eee;
 }
 
 article img {
-  margin: 0 auto 1em;
-  display: block;
-  position: relative;
-  max-width: 100%;
+    margin: 0 auto 1em;
+    display: block;
+    position: relative;
+    max-width: 100%;
 }
 
 small {
-  max-width: 200px;
-  max-height: 400px;
+    max-width: 200px;
+    max-height: 400px;
 }
 
 .meta {
-  font-size: 75%;
+    font-size: 75%;
 }
 
 footer a {
-  font-weight: bold;
-  color: #fff;
+    font-weight: bold;
+    color: #fff;
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
+    body {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 600px) {
-  article img.left {
-    float: left;
-    clear: left;
-    margin-right: 2em;
-  }
-  article img.right {
-    float: right;
-    clear: right;
-    margin-left: 2em;
-  }
+    article img.left {
+        float: left;
+        clear: left;
+        margin-right: 2em;
+    }
+
+    article img.right {
+        float: right;
+        clear: right;
+        margin-left: 2em;
+    }
 }
