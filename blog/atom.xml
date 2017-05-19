@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[Jacob Moore]]></title>
-    <link href="/atom.xml" rel="self"/>
-    <link href="/"/>
-    <updated>2017-05-18T20:22:47-05:00</updated>
-    <id>/</id>
+    <link href="http://jacobmoore.cool/blog/atom.xml" rel="self"/>
+    <link href="http://jacobmoore.cool/blog/"/>
+    <updated>2017-05-18T20:27:46-05:00</updated>
+    <id>http://jacobmoore.cool/blog/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Welcome to the blog!]]></title>
-            <link href="/2017/05/18/Hello-World"/>
+            <link href="http://jacobmoore.cool/blog/2017/05/18/Hello-World"/>
             <updated>2017-05-18T00:00:00-05:00</updated>
-            <id>/2017/05/18/Hello-World</id>
+            <id>http://jacobmoore.cool/blog/2017/05/18/Hello-World</id>
             <content type="html"><![CDATA[<p>This is the first post.</p>
 
 <p>Expect more posts, and visual updates.</p>
