@@ -2,23 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-<title>Blog - Jacob Moore - Developer, Writer, Cat Person</title>
+<title>CSS: Center Multiple Lines on a Shared Character</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A Personal and Portfolio Site">
+<meta name="description" content="One solution to an interesting problem">
 <meta name="author" content="Jacob Moore">
 <meta name="generator" content="Spress v2.2.0">
 
             <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="/assets/img/">
-    <meta name="twitter:title" content="Blog - Jacob Moore - Developer, Writer, Cat Person">
-    <meta name="twitter:description" content="A Personal and Portfolio Site">
+    <meta name="twitter:title" content="CSS: Center Multiple Lines on a Shared Character">
+    <meta name="twitter:description" content="One solution to an interesting problem">
     <meta name="twitter:creator" content="@jmmoore_">
 
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog - Jacob Moore - Developer, Writer, Cat Person">
-<meta property="og:description" content="A Personal and Portfolio Site">
-<meta property="og:url" content="/blog">
+<meta property="og:title" content="CSS: Center Multiple Lines on a Shared Character">
+<meta property="og:description" content="One solution to an interesting problem">
+<meta property="og:url" content="/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character">
 <meta property="og:site_name" content="Jacob Moore">
 
 <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Jacob Moore Feed">
@@ -66,28 +66,73 @@
 </div>
 
         <div class="container content">
-                    <div class="page-header">
-        <h1>Blog</h1>
-    </div>
-
-    <ul class="posts-list">
-        <li class="posts-list-item">
-        <a href="/life/2017/05/26/dont-be-precious">
-            <h4><time pubdate="pubdate">May 26, 2017</time> - Don't Be Precious</h4>
-        </a>
-    </li>
-        <li class="posts-list-item">
-        <a href="/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character">
-            <h4><time pubdate="pubdate">May 25, 2017</time> - CSS: Center Multiple Lines on a Shared Character</h4>
-        </a>
-    </li>
-        <li class="posts-list-item">
-        <a href="/life/2017/05/24/kansas-linux-fest-2017">
-            <h4><time pubdate="pubdate">May 24, 2017</time> - Kansas Linux Fest 2017</h4>
-        </a>
-    </li>
-    </ul>
+                <article class="post">
+    <header>
+        <h1>
+            <a href="/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character">CSS: Center Multiple Lines on a Shared Character</a>
+        </h1>
+    </header>
     
+    <p>In my work sprucing up <a href="http://collegehillcreative.com/">College Hill Creative</a>'s homepage, I discovered something that bothered me at the bottom of each page. The roster was formatted like so:</p>
+
+<pre><code class="html">&lt;p style="text-align: center"&gt;
+    Name Number One | Title Number One&lt;br/&gt;
+    Slightly Shorter | Shorter Title&lt;br/&gt;
+    Tiny | Tiny&lt;br/&gt;
+&lt;/p&gt;
+</code></pre>
+
+<p>It rendered like this:</p>
+
+<p style="text-align: center">
+    Name Number One | Title Number One<br/>
+    Slightly Shorter | Shorter Title<br/>
+    Tiny | Tiny<br/>
+</p>
+
+<p>The fact that the text wasn't centered on the pipes bothered me significantly, and I went to work trying to fix the issue.</p>
+
+<p>My initial searches led me to attempt to maintain whitespace inside of the p element. This got close, but was too finicky and lacked precision. After spending some additional time trying in vain to solve the problem on my own, I reached out to the <a href="https://devict.org/">devICT</a> Slack channel for help.</p>
+
+<p><a href="http://www.barrettmorgandesignllc.com/">Barrett Morgan</a> offered the following suggestion:</p>
+
+<blockquote>
+  <p>@jmmoore you might try wrapping each side of the pipe in divs that are 50% wide. Then right aligning one side and left aligning the other...</p>
+</blockquote>
+
+<p>He provided some sample code as well:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5Lp1Lq8u/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>It rendered relatively close to the way I wanted but the centering still wasn't exactly where I wanted it to be. However, I took his suggestions and spent some time trying different margin combinations, After some experimentation, putting the pipe character inside its own classed div did the trick.</p>
+
+<p>The final version that works is on JSFiddle, embedded below:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5suyaqto/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
+
+    
+            <footer>    
+            <small>
+            	Posted by Jacob Moore on <time pubdate="pubdate">2017-05-25</time>
+            </small>
+
+                        <ul class="list-unstyled">
+                                    <li>
+                        <i class="fa fa-tags"></i>
+                                                    <a href="/tags/css">css</a>, 
+                                                    <a href="/tags/html5">html5</a>, 
+                                                    <a href="/tags/tutorials">tutorials</a>, 
+                                                    <a href="/tags/webdev">webdev</a> 
+                                            </li>
+                                                    <li>
+                        <i class="fa fa-folder"></i>
+                                                    <a href="/categories/webdev">webdev</a> 
+                                            </li>
+                            </ul>
+                    </footer>
+    </article>
         </div>
             
         <footer id="footer">
