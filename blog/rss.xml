@@ -1,128 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Welcome to Spress</title>
-        <link>http://jacobmoore.cool/blog</link>
-        <description>RSS feed for Welcome to Spress</description>
-        <atom:link href="http://jacobmoore.cool/blog/rss.xml" rel="self" type="application/rss+xml" />
+        <title>Jacob Moore</title>
+        <link></link>
+        <description>RSS feed for Jacob Moore</description>
+        <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
-                <title>Sample Post</title>
-                <description><![CDATA[<p>Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+                <title>Tech Midwest Lightning Talk</title>
+                <description><![CDATA[<p>For <a href="http://techmidwest.org/">Tech Midwest</a> 2017, I submitted a five-minute Lightning Talk entitled <strong>Choosing a License for your Open Source Project</strong>.</p>
 
-<h1>Heading 1</h1>
+<p>The slides are embedded below. If there is video or audio of the talk, it will be added here.</p>
 
-<h2>Heading 2</h2>
-
-<h3>Heading 3</h3>
-
-<h4>Heading 4</h4>
-
-<h5>Heading 5</h5>
-
-<h6>Heading 6</h6>
-
-<h3>Body text</h3>
-
-<p>Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam.</p>
-
-<p><em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
-<p>HTML and <abbr title="cascading stylesheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</p>
-
-<h3>Blockquotes</h3>
-
-<blockquote>
-  <p>Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.</p>
-</blockquote>
-
-<h2>List Types</h2>
-
-<h3>Ordered Lists</h3>
-
-<ol>
-<li>Item one
-
-<ol>
-<li>sub item one</li>
-<li>sub item two</li>
-<li>sub item three</li>
-</ol></li>
-<li>Item two</li>
-</ol>
-
-<h3>Unordered Lists</h3>
-
-<ul>
-<li>Item one</li>
-<li>Item two</li>
-<li>Item three</li>
-</ul>
-
-<h2>Tables</h2>
-
-<table>
-<thead>
-<tr>
-  <th>Tables</th>
-  <th align="center">Are</th>
-  <th align="right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>col 3 is</td>
-  <td align="center">right-aligned</td>
-  <td align="right">$1600</td>
-</tr>
-<tr>
-  <td>col 2 is</td>
-  <td align="center">centered</td>
-  <td align="right">$12</td>
-</tr>
-<tr>
-  <td>zebra stripes</td>
-  <td align="center">are neat</td>
-  <td align="right">$1</td>
-</tr>
-</tbody>
-</table>
-
-<h2>Code Snippets</h2>
-
-<p>Syntax highlighting via <a href="http://highlightjs.org/">Highlight.js</a>:</p>
-
-<pre><code>&lt;div id="awesome"&gt;
-    &lt;p&gt;This is great, isn't it?&lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-
-<h2>Buttons</h2>
-
-<p>Make any link stand out by applying the <code>.btn</code> and <code>.btn-default</code> classes.</p>
-
-<div><a href="#" class="btn btn-default">This is a button</a></div>
+<iframe src="https://docs.google.com/presentation/d/1RYmkD6S1G7y2l0C025qQsW9-XW88xfXMsBG2XNwLbMQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ]]></description>
-                <link>http://jacobmoore.cool/blog/articles/2014/01/18/sample-post</link>
-                <pubDate>Sat, 18 Jan 2014 00:00:00 +0000</pubDate>
-                <guid>http://jacobmoore.cool/blog/articles/2014/01/18/sample-post</guid>
+                <link>/work/2017/06/03/tech-midwest-lightning-talk</link>
+                <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>/work/2017/06/03/tech-midwest-lightning-talk</guid>
             </item>
                     <item>
-                <title>Welcome to Spress</title>
-                <description><![CDATA[<p>To create a new post, simply run the <code>spress new:post</code> command or add a file
-to the <code>./src/content/posts</code> folder that follows the convention <code>YYYY-MM-DD-name-of-post.md</code>.</p>
+                <title>Don't Be Precious</title>
+                <description><![CDATA[<p>I'm not very nice to my books. I dogear the pages, write in the margins, underline passages and sometimes break the spines (never intentionally). It's my quest in life to learn as much as possible, and my path to do that is littered with ruined books.</p>
 
-<p>More information about Spress:</p>
+<p>It wasn't always this way, though.</p>
 
-<ul>
-<li><a href="http://spress.yosymfony.com">Spress</a></li>
-<li><a href="http://github.com/spress">Github</a></li>
-</ul>
+<h3>Precious Books</h3>
 
-<p><a href="https://gitter.im/spress/Spress?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter" /></a></p>
+<p>Throughout my adolescence and early adulthood, I revered books. I loved the way they looked on the shelves, the perfect smoothness of a well-handled spine, all of it. My time working at Barnes and Noble put me in the company of a lot of book people. They, like me, held a similar reverence for the printed word.</p>
+
+<p>I looked askance at those who didn't take care of their books. Who didn't dust their shelves, who didn't write in a notebook instead of a margin, who didn't do any of the things I considered necessary for the curator of a library, or the owner of books.</p>
+
+<h3>Homepage Woes</h3>
+
+<p>Fast forward several years. I'm staring at the folder containing my personal webpage, my finger hovering over the delete key.</p>
+
+<p>I want to keep it so badly.</p>
+
+<p>But I can't. It's getting in the way.</p>
+
+<p>I had spent the better part of the last week trying to integrate a statically generated blog onto the website. For a long time, I heard calls to start a blog from many of my favorite online columnists, and thought "That would be a good thing to do...on another day."</p>
+
+<p>By the time I wanted to actually start a blog, my homepage sat before me, taunting me. I liked its simple look and straightforward design. I agonized for days trying to integrate a blogroll onto the site. I just couldn't make it happen, and it soon became apparent:</p>
+
+<p><strong>I had to kill my webpage to move on with my life.</strong></p>
+
+<h3>Get It Done</h3>
+
+<p>There was no funeral.</p>
+
+<p>In the end, I found a static site generator that I liked and applied a theme that I didn't hate. Kept most of the text from the original homepage for this new one, and moved on with my life.</p>
+
+<p>It comes back to what many people have said, but in my opinion <a href="https://stackingthebricks.com/">Amy Hoy</a> said it best:</p>
+
+<p>Just. Fucking. Ship.</p>
+
+<p>I can tell you from personal experience that you're going to waste an inordinate amount of time and energy trying to make your way around all of these barriers you've set up for yourself.</p>
+
+<p>Instead, consider just shipping. Get something done. Get your energy back.</p>
+
+<p>Move on with your life.</p>
 ]]></description>
-                <link>http://jacobmoore.cool/blog/2015/07/26/welcome-to-spress</link>
-                <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
-                <guid>http://jacobmoore.cool/blog/2015/07/26/welcome-to-spress</guid>
+                <link>/life/2017/05/26/dont-be-precious</link>
+                <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
+                <guid>/life/2017/05/26/dont-be-precious</guid>
+            </item>
+                    <item>
+                <title>CSS: Center Multiple Lines on a Shared Character</title>
+                <description><![CDATA[<p>In my work sprucing up <a href="http://collegehillcreative.com/">College Hill Creative</a>'s homepage, I discovered something that bothered me at the bottom of each page. The roster was formatted like so:</p>
+
+<pre><code class="html">&lt;p style="text-align: center"&gt;
+    Name Number One | Title Number One&lt;br/&gt;
+    Slightly Shorter | Shorter Title&lt;br/&gt;
+    Tiny | Tiny&lt;br/&gt;
+&lt;/p&gt;
+</code></pre>
+
+<p>It rendered like this:</p>
+
+<p style="text-align: center">
+    Name Number One | Title Number One<br/>
+    Slightly Shorter | Shorter Title<br/>
+    Tiny | Tiny<br/>
+</p>
+
+<p>The fact that the text wasn't centered on the pipes bothered me significantly, and I went to work trying to fix the issue.</p>
+
+<p>My initial searches led me to attempt to maintain whitespace inside of the p element. This got close, but was too finicky and lacked precision. After spending some additional time trying in vain to solve the problem on my own, I reached out to the <a href="https://devict.org/">devICT</a> Slack channel for help.</p>
+
+<p><a href="http://www.barrettmorgandesignllc.com/">Barrett Morgan</a> offered the following suggestion:</p>
+
+<blockquote>
+  <p>@jmmoore you might try wrapping each side of the pipe in divs that are 50% wide. Then right aligning one side and left aligning the other...</p>
+</blockquote>
+
+<p>He provided some sample code as well:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5Lp1Lq8u/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>It rendered relatively close to the way I wanted but the centering still wasn't exactly where I wanted it to be. However, I took his suggestions and spent some time trying different margin combinations. After some experimentation, putting the pipe character inside its own classed div did the trick.</p>
+
+<p>The final version that works is on JSFiddle, embedded below:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5suyaqto/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
+]]></description>
+                <link>/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character</link>
+                <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+                <guid>/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character</guid>
+            </item>
+                    <item>
+                <title>Kansas Linux Fest 2017</title>
+                <description><![CDATA[<p>I wrote about the <a href="http://kansaslinuxfest.org/">Kansas Linux Fest</a> and my experience volunteering with them.</p>
+
+<p>You can read about it <a href="/projects/kansas-linux-fest/">here</a>.</p>
+]]></description>
+                <link>/life/2017/05/24/kansas-linux-fest-2017</link>
+                <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+                <guid>/life/2017/05/24/kansas-linux-fest-2017</guid>
             </item>
             </channel>
 </rss>

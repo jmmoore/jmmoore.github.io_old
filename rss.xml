@@ -6,6 +6,18 @@
         <description>RSS feed for Jacob Moore</description>
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
+                <title>Tech Midwest Lightning Talk</title>
+                <description><![CDATA[<p>For <a href="http://techmidwest.org/">Tech Midwest</a> 2017, I submitted a five-minute Lightning Talk entitled <strong>Choosing a License for your Open Source Project</strong>.</p>
+
+<p>The slides are embedded below. If there is video or audio of the talk, it will be added here.</p>
+
+<iframe src="https://docs.google.com/presentation/d/1RYmkD6S1G7y2l0C025qQsW9-XW88xfXMsBG2XNwLbMQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+]]></description>
+                <link>/work/2017/06/03/tech-midwest-lightning-talk</link>
+                <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>/work/2017/06/03/tech-midwest-lightning-talk</guid>
+            </item>
+                    <item>
                 <title>Don't Be Precious</title>
                 <description><![CDATA[<p>I'm not very nice to my books. I dogear the pages, write in the margins, underline passages and sometimes break the spines (never intentionally). It's my quest in life to learn as much as possible, and my path to do that is littered with ruined books.</p>
 
