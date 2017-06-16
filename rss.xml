@@ -6,12 +6,106 @@
         <description>RSS feed for Jacob Moore</description>
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
+                <title>On Stubbornness and Grit</title>
+                <description><![CDATA[<p>On Stubbornness and Grit</p>
+
+<p>I just finished reading Chapter 4 of Jeff Goins's book <em>Real Artists</em> Don't <em>Starve</em>. It begins with a quote from Jeff Bezos, founder of Amazon.com:</p>
+
+<p>"We are stubborn on vision. We are flexible on details."</p>
+
+<p>Goins starts the meat of the chapter with the story of F. Scott Fitzgerald, who persevered through hundreds of denials and rejections on the way to publishing his first novel. Partially because of this perseverance, Fitzgerald grew into an incredible success, only to become results-oriented and focus too strongly on the critical and business reception of his work. This led to discouragement and giving up. Fitzgerald died at 44 of heart failure, mostly penniless.</p>
+
+<p>Goins goes on in the chapter to define when exactly an artist should be stubborn and when they should not. The concept of grit is discussed at length.</p>
+
+<p>I can empathize with discouragement and giving up. This kind of grit, pushing through adversity and failure for a longer-term view of success, was never something that I had to have. My mom read to my brother and I from a very, very young age. The ability to take in and internalize new information grew from this learning. School was always easy, and when it got hard, I gave up.</p>
+
+<p>In high school, I had a C in AP Chemistry. Partially to avoid difficulty and partially in an effort to graduate early, I dropped AP Chem at winter break and took on a much easier courseload.</p>
+
+<p>This pattern of giving up when it gets hard has repeated itself several times throughout my adult life. I have been unemployed for over a month, and have taken on only a couple of new challenges. I have lost inertia. I wouldn't quite say that I'm depressed, but I have definitely felt rudderless.</p>
+
+<p>I feel stuck between a couple of different paths:</p>
+
+<ul>
+<li>Continue to learn programming and web development, finding an entry-level job at a software company.</li>
+<li>Pursue the artistic and creative dream of writing for a living.</li>
+<li>Brush back up on DevOps-y things like Ansible and Puppet and find work in more of an IT capacity.</li>
+</ul>
+
+<p>I experienced the giving up pattern just recently. I was working on a website for the MtG league I run here in Wichita. After being away from the project a couple of days, I jumped back in and quickly felt incredibly overwhelmed by the amount of work that needed to be done. I gave up and dicked around for the rest of the day.</p>
+
+<p>Even as I typed that last paragraph, I was inventing solutions or strategies that I've heard or read or attempted to implement myself in order to solve those problems.</p>
+
+<p>Grit, from my perspective, is a simple thing. Not easy, but simple.</p>
+
+<ul>
+<li>Show up, rain or shine.</li>
+<li>Have a grand strategy. (TODO: Link to Ryan Holiday article.)</li>
+<li>Don't dick around.</li>
+<li>Do the work.</li>
+</ul>
+
+<p>It's no more complex or noble than that.</p>
+
+<p>Give some thought to this. 
+If you're experiencing doubt or want to give up, 
+don't give up just yet. 
+Consider another way forward. 
+Take the problem you're facing down,
+break it into smaller pieces. 
+How small?</p>
+
+<p>This small.
+Two words.
+Maybe three words.
+Four if you must.
+Get specific.</p>
+
+<p>Nearly every problem we face 
+can be addressed
+with the right mindset.
+The right outlook.</p>
+
+<p>The cliche goes, 
+"The only person holding me back is me."
+This is both true and not true.</p>
+
+<p>You are holding yourself back.
+But it's not all of you.
+It's the parts of you that are afraid.
+That are doubtful.
+That are hateful.
+Voices that you've heard and remembered.
+Voices that sound a lot like yours.
+Listen to them.
+Acknowledge their existence.
+Then move on with your life.
+Meditation helps.
+Silence helps.</p>
+
+<p>Return to the bullets above.
+Show up.
+Have a plan.
+Don't fuck around.
+Do the work.</p>
+
+<p>It's simple. Not easy.
+No one said this would be easy.</p>
+
+<p>Back to the books for me.</p>
+
+<p>Until next time.</p>
+]]></description>
+                <link>/life/2017/06/16/on-stubbornness-and-grit</link>
+                <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>/life/2017/06/16/on-stubbornness-and-grit</guid>
+            </item>
+                    <item>
                 <title>Tech Midwest Lightning Talk</title>
                 <description><![CDATA[<p>For <a href="http://techmidwest.org/">Tech Midwest</a> 2017, I submitted a five-minute Lightning Talk entitled <strong>Choosing a License for your Open Source Project</strong>.</p>
 
 <p>The slides are embedded below. If there is video or audio of the talk, it will be added here.</p>
 
-<iframe src="https://docs.google.com/presentation/d/1RYmkD6S1G7y2l0C025qQsW9-XW88xfXMsBG2XNwLbMQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1RYmkD6S1G7y2l0C025qQsW9-XW88xfXMsBG2XNwLbMQ/embed?start=false&loop=false&delayms=15000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ]]></description>
                 <link>/work/2017/06/03/tech-midwest-lightning-talk</link>
                 <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
