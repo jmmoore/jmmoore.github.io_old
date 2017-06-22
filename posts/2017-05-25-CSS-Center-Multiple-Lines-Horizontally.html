@@ -2,23 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-<title>On Unemployment Malaise</title>
+<title>CSS: Center Multiple Lines on a Shared Character</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A Personal and Portfolio Site">
+<meta name="description" content="One solution to an interesting problem">
 <meta name="author" content="Jacob Moore">
 <meta name="generator" content="Spress v2.2.0">
 
             <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="/assets/img/">
-    <meta name="twitter:title" content="On Unemployment Malaise">
-    <meta name="twitter:description" content="A Personal and Portfolio Site">
+    <meta name="twitter:title" content="CSS: Center Multiple Lines on a Shared Character">
+    <meta name="twitter:description" content="One solution to an interesting problem">
     <meta name="twitter:creator" content="@jmmoore_">
 
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="On Unemployment Malaise">
-<meta property="og:description" content="A Personal and Portfolio Site">
-<meta property="og:url" content="/life/2017/06/21/on-unemployment-malaise">
+<meta property="og:title" content="CSS: Center Multiple Lines on a Shared Character">
+<meta property="og:description" content="One solution to an interesting problem">
+<meta property="og:url" content="/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html">
 <meta property="og:site_name" content="Jacob Moore">
 
 <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Jacob Moore Feed">
@@ -69,103 +69,66 @@
                 <article class="post">
     <header>
         <h1>
-            <a href="/life/2017/06/21/on-unemployment-malaise">On Unemployment Malaise</a>
+            <a href="/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html">CSS: Center Multiple Lines on a Shared Character</a>
         </h1>
     </header>
     
-    <h3><a href="https://www.youtube.com/watch?v=BTLbR80pIqY">It's alright not to feel okay</a></h3>
+    <p>In my work sprucing up <a href="http://collegehillcreative.com/">College Hill Creative</a>'s homepage, I discovered something that bothered me at the bottom of each page. The roster was formatted like so:</p>
 
-<p>It's been almost seven weeks since I've worked for pay.</p>
+<pre><code class="html">&lt;p style="text-align: center"&gt;
+    Name Number One | Title Number One&lt;br/&gt;
+    Slightly Shorter | Shorter Title&lt;br/&gt;
+    Tiny | Tiny&lt;br/&gt;
+&lt;/p&gt;
+</code></pre>
 
-<p>I haven't been out of work for this long at any point in my employment history. The experience been alternately freeing and frustrating, in a number of different ways.</p>
+<p>It rendered like this:</p>
 
-<p>Freeing in that:</p>
+<p style="text-align: center">
+    Name Number One | Title Number One<br/>
+    Slightly Shorter | Shorter Title<br/>
+    Tiny | Tiny<br/>
+</p>
 
-<ul>
-<li>I don't have to worry about company or interpersonal politics.</li>
-<li>I don't have to work on uninspiring projects.</li>
-<li>I don't have to work with uninspiring people.</li>
-<li>If I want to take a break in the middle of the day for a couple hours, I can.</li>
-<li>I can wear pajamas all day.</li>
-<li>I don't have to really worry about a team lead or manager breathing down my neck.</li>
-<li>I can wake up naturally.</li>
-<li>I get to set my own schedule.</li>
-</ul>
+<p>The fact that the text wasn't centered on the pipes bothered me significantly, and I went to work trying to fix the issue.</p>
 
-<p>Frustrating in that:</p>
+<p>My initial searches led me to attempt to maintain whitespace inside of the p element. This got close, but was too finicky and lacked precision. After spending some additional time trying in vain to solve the problem on my own, I reached out to the <a href="https://devict.org/">devICT</a> Slack channel for help.</p>
 
-<ul>
-<li>I get to set my own schedule, which consumes a lot of energy.</li>
-<li>No one is expecting anything of me. All of the standards I have are self-imposed.</li>
-<li>I am not generating income.</li>
-<li>I have to rely on the state unemployment system.</li>
-<li>Every expenditure must be scrutinized more closely than ever.</li>
-<li>Being social is difficult as finding free things to do is not always easy.</li>
-<li>Dating is difficult for a number of reasons, not the least of which is having money to go on dates.</li>
-<li>A lot of uncertainty is added to every day.</li>
-<li>A lot of work is involved in trying to find work.</li>
-</ul>
-
-<h3>The Slump</h3>
-
-<p>Over the last week or so, a kind of ennui has set in. It began on Saturday after having breakfast with D. I journaled for a while, and then sat down and played video games for the rest of the day. Repeat for Sunday, except with some cooking and socializing with parents. By Monday morning, during which I had a minor financial crisis, I had reached peak Can't Even.</p>
-
-<p>The few responses I've gotten in terms of work have been uninspiring and disheartening. This among other things has led to a reclusive and depressing headspace.</p>
-
-<p>I'm also still struggling with how exactly I wish to earn a living. The dream is to do so with words, through writing or speaking or teaching. However, my resume and experience indicate a person with Development and DevOps skills. This kind of work is far more in demand, generally pays better and has more stability.</p>
-
-<h3>Help is Within Reach</h3>
-
-<p>On Tuesday, I reached out to my support network. They helped me expand on some ideas and provided some valuable advice regarding my malaise. Advice that I had read and heard before, but as Samuel Johnson said,</p>
+<p><a href="http://www.barrettmorgandesignllc.com/">Barrett Morgan</a> offered the following suggestion:</p>
 
 <blockquote>
-  <p>"People need to be reminded more often than they need to be instructed."</p>
+  <p>@jmmoore you might try wrapping each side of the pipe in divs that are 50% wide. Then right aligning one side and left aligning the other...</p>
 </blockquote>
 
-<p>They reminded me of simple but not easy things like:</p>
+<p>He provided some sample code as well:</p>
 
-<ul>
-<li>Set a few small, achievable daily goals.</li>
-<li>Write a rough schedule for your day.</li>
-<li>Get some exercise.</li>
-<li>Remember to eat.</li>
-</ul>
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5Lp1Lq8u/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<h3>Overcoming the Slump</h3>
+<p>It rendered relatively close to the way I wanted but the centering still wasn't exactly where I wanted it to be. However, I took his suggestions and spent some time trying different margin combinations. After some experimentation, putting the pipe character inside its own classed div did the trick.</p>
 
-<p>My current strategy is to pursue DevOps/Developer work while continuing to write every day. Doing work and gaining experience in this field will provide a lot of grist for the personal writing mill, not to mention a lot of opportunities to write in other capacities. Technical manuals and documentation don't write themselves.</p>
+<p>The final version that works is on JSFiddle, embedded below:</p>
 
-<p>Going forward in this space you'll see progress on this front. Writing about:</p>
+<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5suyaqto/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-<ul>
-<li>Falling back in love with code</li>
-<li>Provisioning a Development Environment with Ansible</li>
-<li>Minimal, simple websites with HTML5</li>
-<li>Writing JavaScript with Kotlin</li>
-<li>Creating and linking databases with SQLite</li>
-<li>Lessons learned from books and video games</li>
-</ul>
-
-<p>I hope that you'll come along with me.</p>
+<p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
 
     
             <footer>    
             <small>
-            	Posted by Jacob Moore on <time pubdate="pubdate">2017-06-21</time>
+            	Posted by Jacob Moore on <time pubdate="pubdate">2017-05-25</time>
             </small>
 
                         <ul class="list-unstyled">
                                     <li>
                         <i class="fa fa-tags"></i>
-                                                    <a href="/tags/depression">depression</a>, 
-                                                    <a href="/tags/development">development</a>, 
-                                                    <a href="/tags/ennui">ennui</a>, 
-                                                    <a href="/tags/support">support</a>, 
-                                                    <a href="/tags/work">work</a> 
+                                                    <a href="/tags/css">css</a>, 
+                                                    <a href="/tags/html5">html5</a>, 
+                                                    <a href="/tags/tutorials">tutorials</a>, 
+                                                    <a href="/tags/webdev">webdev</a> 
                                             </li>
                                                     <li>
                         <i class="fa fa-folder"></i>
-                                                    <a href="/categories/life">life</a> 
+                                                    <a href="/categories/webdev">webdev</a> 
                                             </li>
                             </ul>
                     </footer>

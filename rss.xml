@@ -6,6 +6,16 @@
         <description>RSS feed for Jacob Moore</description>
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
+                <title>On False Dichotomies</title>
+                <description><![CDATA[<h3>Why Not Both?</h3>
+
+<p>In ()</p>
+]]></description>
+                <link>/posts/2017-06-22-on-false-dichotomies.html</link>
+                <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>/posts/2017-06-22-on-false-dichotomies.html</guid>
+            </item>
+                    <item>
                 <title>On Unemployment Malaise</title>
                 <description><![CDATA[<h3><a href="https://www.youtube.com/watch?v=BTLbR80pIqY">It's alright not to feel okay</a></h3>
 
@@ -82,9 +92,9 @@
 
 <p>I hope that you'll come along with me.</p>
 ]]></description>
-                <link>/life/2017/06/21/on-unemployment-malaise</link>
+                <link>/posts/2017-06-21-on-unemployment-malaise.html</link>
                 <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
-                <guid>/life/2017/06/21/on-unemployment-malaise</guid>
+                <guid>/posts/2017-06-21-on-unemployment-malaise.html</guid>
             </item>
                     <item>
                 <title>On Stubbornness and Grit</title>
@@ -181,9 +191,9 @@ No one said this would be easy.</p>
 
 <p>Until next time.</p>
 ]]></description>
-                <link>/life/2017/06/16/on-stubbornness-and-grit</link>
+                <link>/posts/2017-06-16-on-grit-and-determination.html</link>
                 <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
-                <guid>/life/2017/06/16/on-stubbornness-and-grit</guid>
+                <guid>/posts/2017-06-16-on-grit-and-determination.html</guid>
             </item>
                     <item>
                 <title>Tech Midwest Lightning Talk</title>
@@ -193,9 +203,9 @@ No one said this would be easy.</p>
 
 <iframe src="https://docs.google.com/presentation/d/1RYmkD6S1G7y2l0C025qQsW9-XW88xfXMsBG2XNwLbMQ/embed?start=false&loop=false&delayms=15000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ]]></description>
-                <link>/work/2017/06/03/tech-midwest-lightning-talk</link>
+                <link>/posts/2017-06-03-Tech-Midwest-Lightning-Talk.html</link>
                 <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
-                <guid>/work/2017/06/03/tech-midwest-lightning-talk</guid>
+                <guid>/posts/2017-06-03-Tech-Midwest-Lightning-Talk.html</guid>
             </item>
                     <item>
                 <title>Don't Be Precious</title>
@@ -239,9 +249,9 @@ No one said this would be easy.</p>
 
 <p>Move on with your life.</p>
 ]]></description>
-                <link>/life/2017/05/26/dont-be-precious</link>
+                <link>/posts/2017-05-26-Dont-Be-Precious.html</link>
                 <pubDate>Fri, 26 May 2017 00:00:00 +0000</pubDate>
-                <guid>/life/2017/05/26/dont-be-precious</guid>
+                <guid>/posts/2017-05-26-Dont-Be-Precious.html</guid>
             </item>
                     <item>
                 <title>CSS: Center Multiple Lines on a Shared Character</title>
@@ -284,9 +294,9 @@ No one said this would be easy.</p>
 
 <p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
 ]]></description>
-                <link>/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character</link>
+                <link>/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html</link>
                 <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
-                <guid>/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character</guid>
+                <guid>/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html</guid>
             </item>
                     <item>
                 <title>Kansas Linux Fest 2017</title>
@@ -294,9 +304,9 @@ No one said this would be easy.</p>
 
 <p>You can read about it <a href="/projects/kansas-linux-fest/">here</a>.</p>
 ]]></description>
-                <link>/life/2017/05/24/kansas-linux-fest-2017</link>
+                <link>/posts/2017-05-24-Kansas-Linux-Fest.html</link>
                 <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
-                <guid>/life/2017/05/24/kansas-linux-fest-2017</guid>
+                <guid>/posts/2017-05-24-Kansas-Linux-Fest.html</guid>
             </item>
             </channel>
 </rss>

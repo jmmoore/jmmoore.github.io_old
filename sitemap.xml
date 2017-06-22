@@ -4,37 +4,43 @@
         <loc></loc>
     </url>
             <url>
-            <loc>/life/2017/06/21/on-unemployment-malaise</loc>
+            <loc>/posts/2017-06-22-on-false-dichotomies.html</loc>
+            <lastmod>2017-06-22</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+            <url>
+            <loc>/posts/2017-06-21-on-unemployment-malaise.html</loc>
             <lastmod>2017-06-21</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
             <url>
-            <loc>/life/2017/06/16/on-stubbornness-and-grit</loc>
+            <loc>/posts/2017-06-16-on-grit-and-determination.html</loc>
             <lastmod>2017-06-16</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
             <url>
-            <loc>/work/2017/06/03/tech-midwest-lightning-talk</loc>
+            <loc>/posts/2017-06-03-Tech-Midwest-Lightning-Talk.html</loc>
             <lastmod>2017-06-03</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
             <url>
-            <loc>/life/2017/05/26/dont-be-precious</loc>
+            <loc>/posts/2017-05-26-Dont-Be-Precious.html</loc>
             <lastmod>2017-05-26</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
             <url>
-            <loc>/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character</loc>
+            <loc>/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html</loc>
             <lastmod>2017-05-25</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
         </url>
             <url>
-            <loc>/life/2017/05/24/kansas-linux-fest-2017</loc>
+            <loc>/posts/2017-05-24-Kansas-Linux-Fest.html</loc>
             <lastmod>2017-05-24</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>

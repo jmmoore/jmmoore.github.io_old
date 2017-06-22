@@ -2,23 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-<title>CSS: Center Multiple Lines on a Shared Character</title>
+<title>devICT Java Talk</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="One solution to an interesting problem">
+<meta name="description" content="Kotlin: From Russia with Love...ly Syntax">
 <meta name="author" content="Jacob Moore">
 <meta name="generator" content="Spress v2.2.0">
 
             <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="/assets/img/">
-    <meta name="twitter:title" content="CSS: Center Multiple Lines on a Shared Character">
-    <meta name="twitter:description" content="One solution to an interesting problem">
+    <meta name="twitter:title" content="devICT Java Talk">
+    <meta name="twitter:description" content="Kotlin: From Russia with Love...ly Syntax">
     <meta name="twitter:creator" content="@jmmoore_">
 
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS: Center Multiple Lines on a Shared Character">
-<meta property="og:description" content="One solution to an interesting problem">
-<meta property="og:url" content="/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character">
+<meta property="og:title" content="devICT Java Talk">
+<meta property="og:description" content="Kotlin: From Russia with Love...ly Syntax">
+<meta property="og:url" content="/projects/java-talk-kotlin.html">
 <meta property="og:site_name" content="Jacob Moore">
 
 <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Jacob Moore Feed">
@@ -66,73 +66,32 @@
 </div>
 
         <div class="container content">
-                <article class="post">
-    <header>
-        <h1>
-            <a href="/webdev/2017/05/25/css-center-multiple-lines-on-a-shared-character">CSS: Center Multiple Lines on a Shared Character</a>
-        </h1>
-    </header>
-    
-    <p>In my work sprucing up <a href="http://collegehillcreative.com/">College Hill Creative</a>'s homepage, I discovered something that bothered me at the bottom of each page. The roster was formatted like so:</p>
+                <h2>devICT Java Talk (August 2016)</h2>
 
-<pre><code class="html">&lt;p style="text-align: center"&gt;
-    Name Number One | Title Number One&lt;br/&gt;
-    Slightly Shorter | Shorter Title&lt;br/&gt;
-    Tiny | Tiny&lt;br/&gt;
-&lt;/p&gt;
-</code></pre>
+<h3>Backstory</h3>
 
-<p>It rendered like this:</p>
+<p>In the summer of 2016, <a href="http://www.greggbolinger.com/">Gregg Bolinger</a> had the desire to start a series of tech talks specifically centered around Java and its offshoots. He put out the call for talks on the <a href="http://devict.org/">devICT</a> Slack. At the time I was employed as a Developer/DevOps Engineer at a company that primarily used Java as its language of choice.</p>
 
-<p style="text-align: center">
-    Name Number One | Title Number One<br/>
-    Slightly Shorter | Shorter Title<br/>
-    Tiny | Tiny<br/>
-</p>
+<p>Leading up to this point I had been experimenting with other languages on the JVM like <a href="https://clojure.org/">Clojure</a> and <a href="https://www.scala-lang.org/">Scala</a>. I don't remember exactly how I discovered Kotlin, but its clean syntax and the way it handles null pointer exceptions made me a fan immediately. I informed Gregg that I'd be more than willing to give a talk about Kotlin, and he assented enthusiastically.</p>
 
-<p>The fact that the text wasn't centered on the pipes bothered me significantly, and I went to work trying to fix the issue.</p>
+<h3>Stage Fright</h3>
 
-<p>My initial searches led me to attempt to maintain whitespace inside of the p element. This got close, but was too finicky and lacked precision. After spending some additional time trying in vain to solve the problem on my own, I reached out to the <a href="https://devict.org/">devICT</a> Slack channel for help.</p>
+<p>I'd never given a tech talk before. Despite that, I had a lot of experience speaking in front of different groups of people. For the better part of a year I was the MC for Wichita's (at the time) only Poetry Slam, as well as a performer and regular at their open mic nights.</p>
 
-<p><a href="http://www.barrettmorgandesignllc.com/">Barrett Morgan</a> offered the following suggestion:</p>
+<p>I had the tremendous opportunity to open for the <a href="https://www.wbez.org/shows/wbez-news/the-night-kite-revival/9a5df63c-73b3-44cc-9fe7-c3d5397bc612">Night Kite Revival</a> when they performed in Wichita, and read a few poems between sets for <a href="https://buddywakefield.com/">Buddy Wakefield</a>'s Wichita performance.</p>
 
-<blockquote>
-  <p>@jmmoore you might try wrapping each side of the pipe in divs that are 50% wide. Then right aligning one side and left aligning the other...</p>
-</blockquote>
+<p>Given that, I spent the majority of my time on the slides and making the content accurate, interesting, and informative. I watched several Kotlin talks, mostly from developers of the language, and cribbed notes liberally.</p>
 
-<p>He provided some sample code as well:</p>
+<h3>The Talk</h3>
 
-<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5Lp1Lq8u/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<p>It went off mostly without a hitch! My slides were made using <a href="http://lab.hakim.se/reveal-js/#/">reveal.js</a> and hosted on my personal site. You can take a look at them <a href="http://jacobmoore.cool/javatalk_kotlin/#/">here</a>. There is not video of me physically giving the talk as there wasn't a camera present, but you can listen to the talk and read the slides on <a href="https://www.youtube.com/watch?v=AX0Xxg7KDck">Youtube</a>. I also made available on <a href="https://github.com/jmmoore/javatalk_kotlin">github</a> my notes, research and a PDF of the slides.</p>
 
-<p>It rendered relatively close to the way I wanted but the centering still wasn't exactly where I wanted it to be. However, I took his suggestions and spent some time trying different margin combinations. After some experimentation, putting the pipe character inside its own classed div did the trick.</p>
+<h3>Takeaways</h3>
 
-<p>The final version that works is on JSFiddle, embedded below:</p>
+<p>I really liked giving this presentation. I spent a significant amount of time and energy researching it and still wish that I could have done better. It made me want to write and speak and teach about technical things for a living.</p>
 
-<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5suyaqto/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<p>Expect more from me in this vein soon.</p>
 
-<p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
-
-    
-            <footer>    
-            <small>
-            	Posted by Jacob Moore on <time pubdate="pubdate">2017-05-25</time>
-            </small>
-
-                        <ul class="list-unstyled">
-                                    <li>
-                        <i class="fa fa-tags"></i>
-                                                    <a href="/tags/css">css</a>, 
-                                                    <a href="/tags/html5">html5</a>, 
-                                                    <a href="/tags/tutorials">tutorials</a>, 
-                                                    <a href="/tags/webdev">webdev</a> 
-                                            </li>
-                                                    <li>
-                        <i class="fa fa-folder"></i>
-                                                    <a href="/categories/webdev">webdev</a> 
-                                            </li>
-                            </ul>
-                    </footer>
-    </article>
         </div>
             
         <footer id="footer">
