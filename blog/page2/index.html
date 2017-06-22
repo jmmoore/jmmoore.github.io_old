@@ -66,67 +66,47 @@
 </div>
 
         <div class="container content">
-                            <article class="post">
-    <header>
-        <h1>
-            <a href="/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html">CSS: Center Multiple Lines on a Shared Character</a>
-        </h1>
-    </header>
-    
-    <p>In my work sprucing up <a href="http://collegehillcreative.com/">College Hill Creative</a>'s homepage, I discovered something that bothered me at the bottom of each page. The roster was formatted like so:</p>
+                    <div class="page-header">
+        <h1>Blog</h1>
+    </div>
 
-<pre><code class="html">&lt;p style="text-align: center"&gt;
-    Name Number One | Title Number One&lt;br/&gt;
-    Slightly Shorter | Shorter Title&lt;br/&gt;
-    Tiny | Tiny&lt;br/&gt;
-&lt;/p&gt;
-</code></pre>
-
-<p>It rendered like this:</p>
-
-<p style="text-align: center">
-    Name Number One | Title Number One<br/>
-    Slightly Shorter | Shorter Title<br/>
-    Tiny | Tiny<br/>
-</p>
-
-<p>The fact that the text wasn't centered on the pipes bothered me significantly, and I went to work trying to fix the issue.</p>
-
-<p>My initial searches led me to attempt to maintain whitespace inside of the p element. This got close, but was too finicky and lacked precision. After spending some additional time trying in vain to solve the problem on my own, I reached out to the <a href="https://devict.org/">devICT</a> Slack channel for help.</p>
-
-<p><a href="http://www.barrettmorgandesignllc.com/">Barrett Morgan</a> offered the following suggestion:</p>
-
-<blockquote>
-  <p>@jmmoore you might try wrapping each side of the pipe in divs that are 50% wide. Then right aligning one side and left aligning the other...</p>
-</blockquote>
-
-<p>He provided some sample code as well:</p>
-
-<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5Lp1Lq8u/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-<p>It rendered relatively close to the way I wanted but the centering still wasn't exactly where I wanted it to be. However, I took his suggestions and spent some time trying different margin combinations. After some experimentation, putting the pipe character inside its own classed div did the trick.</p>
-
-<p>The final version that works is on JSFiddle, embedded below:</p>
-
-<iframe width="100%" height="300" src="//jsfiddle.net/jmmoore/5suyaqto/embedded/html,css,result/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-<p>This doesn't strike me as a particularly elegant solution, so if you have solved this problem in a different way, please reach out to me on <a href="https://twitter.com/jmmoore_">Twitter</a>!</p>
-
-    
-    </article>
-            <article class="post">
-    <header>
-        <h1>
-            <a href="/posts/2017-05-24-Kansas-Linux-Fest.html">Kansas Linux Fest 2017</a>
-        </h1>
-    </header>
-    
-    <p>I wrote about the <a href="http://kansaslinuxfest.org/">Kansas Linux Fest</a> and my experience volunteering with them.</p>
-
-<p>You can read about it <a href="/projects/kansas-linux-fest/">here</a>.</p>
-
-    
-    </article>
+    <ul class="posts-list">
+        <li class="posts-list-item">
+        <a href="/posts/2017-06-22-on-false-dichotomies.html">
+            <h4><time pubdate="pubdate">June 22, 2017</time> - On False Dichotomies</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-06-21-on-unemployment-malaise.html">
+            <h4><time pubdate="pubdate">June 21, 2017</time> - On Unemployment Malaise</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-06-16-on-grit-and-determination.html">
+            <h4><time pubdate="pubdate">June 16, 2017</time> - On Stubbornness and Grit</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-06-03-Tech-Midwest-Lightning-Talk.html">
+            <h4><time pubdate="pubdate">June 03, 2017</time> - Tech Midwest Lightning Talk</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-05-26-Dont-Be-Precious.html">
+            <h4><time pubdate="pubdate">May 26, 2017</time> - Don't Be Precious</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-05-25-CSS-Center-Multiple-Lines-Horizontally.html">
+            <h4><time pubdate="pubdate">May 25, 2017</time> - CSS: Center Multiple Lines on a Shared Character</h4>
+        </a>
+    </li>
+        <li class="posts-list-item">
+        <a href="/posts/2017-05-24-Kansas-Linux-Fest.html">
+            <h4><time pubdate="pubdate">May 24, 2017</time> - Kansas Linux Fest 2017</h4>
+        </a>
+    </li>
+    </ul>
     
         </div>
             
