@@ -6,11 +6,25 @@
         <description>RSS feed for Jacob Moore</description>
         <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
                     <item>
-                <title>on side projects</title>
-                <description><![CDATA[]]></description>
-                <link>/posts/2017-07-17-on-side-projects.md~</link>
-                <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
-                <guid>/posts/2017-07-17-on-side-projects.md~</guid>
+                <title>On 'Big Boy' Hosting</title>
+                <description><![CDATA[<h2>Entering the Digital Ocean</h2>
+
+<p>As my primary task for today I registered with Digital Ocean and migrated jacobmoore.cool from free Github Pages hosting to a small Ubuntu droplet.</p>
+
+<p>A couple of advantages to this approach:</p>
+
+<ul>
+<li><p><strong>Security.</strong> GitHub Pages doesn't currently support SSL certificates. Moving to my own hosting makes this trivial.</p></li>
+<li><p><strong>Knowledge.</strong> Setting up an Ubuntu droplet from scratch was a nice exercise. Using a statically generated site means that the process isn't too intense, but writing nginx config files and configuring DNS isn't nothing.</p></li>
+<li><p><strong>Scale.</strong> I have a few other web projects planned, specifically one around the Cube League I run. Running an nginx host on my own droplet means that I will be able to host multiple small domains. GitHub Pages is free, but only allows for one site per username or project.</p></li>
+<li><p><strong>Work.</strong> Making some daily effort toward a larger goal is the single greatest way to achieve the things that we set out to do. Starting this project today gave me momentum and some fodder for this post.</p></li>
+</ul>
+
+<p>Check back tomorrow for some extended thoughts about GitHub and why I'll be moving to GitLab sooner rather than later.</p>
+]]></description>
+                <link>/posts/2017-07-18-on-big-boy-hosting.html</link>
+                <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+                <guid>/posts/2017-07-18-on-big-boy-hosting.html</guid>
             </item>
                     <item>
                 <title>On Side Projects</title>
