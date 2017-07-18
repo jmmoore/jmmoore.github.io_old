@@ -23,7 +23,7 @@
 <li><p><strong>Disclosure.</strong> Even if you have copies of your work for your previous company, it may be in violation of the terms of your employment to share it. Many employers have strict non-disclosure agreements that cover any work done on their payroll. Perhaps it's possible to alter the work so that it only remotely resembles the original, but undertake any venture of this nature at your own discretion.</p></li>
 </ul>
 
-<p>Given these strictures, what's the most useful course of action? How is it possible to display one's prowess without either violating an NDA or hosting a scattershot repository of contextless code snippets?</p>
+<p>Given these strictures, what's the most useful course of action? How is it possible to display one's prowess to potential employers or clients without either violating an NDA or hosting a scattershot repository of contextless code snippets?</p>
 
 <p>The answer is simple, but not easy: <em>a side project</em>.</p>
 
@@ -33,9 +33,19 @@
 
 <p>People have other responsibilities: to their spouses, parents, children, second jobs, what have you. I will say, though, that there isn't much that's more attractive to a potential employer than being able to see complete and operational code on a github repository or a personal webpage.</p>
 
-<p>Relying on a resume alone is a long road to hoe when looking for work as a developer or creative person. Without a portfolio, an artist or graphic designer has basically no shot at getting paying work. It's practically a prerequisite for any kind of legitimacy as a professional. The same holds true for developers and writers too.</p>
+<h2>The Reality of Portfolios</h2>
 
-<p>It's certainly <em>possible</em> to get paying work as a developer or writer without a lot of experience. My own history is proof of that. However, my case relied upon being in the right place at the right time, not to mention having a strong network that allowed me to get an audience with someone I could impress enough to take a chance on me.</p>
+<p>Relying on a resume alone is a long row to hoe when looking for work as a developer or creative person. Without a portfolio, an artist or graphic designer has basically no shot at getting paying work. It's practically a prerequisite for any kind of legitimacy as a professional. The same holds true for developers and writers too.</p>
+
+<p>It's certainly <em>possible</em> to get paying work as a developer or writer without a lot of experience. My own history is proof of that. However, my case relied upon:</p>
+
+<ul>
+<li>Being in the right place at the right time </li>
+<li>Having a strong network that allowed me to get an audience with an employer</li>
+<li>Being able to impress that person enough to hire me based on my rhetoric</li>
+</ul>
+
+<p>Needless to say, it took a lot of luck (and undeniably some privilege) to get work where and when I did.</p>
 
 <h2>So tell me, what the hell is a fella to do?</h2>
 
@@ -45,22 +55,16 @@
 
 <ul>
 <li><p><strong>You likely already have an idea for a side project.</strong> If you have a hobby or interest that you pursue, it's entirely possible that a side project is staring you in the face. Do you knit? Write some code that displays knitting instructions in full sentences, or as code snippets (k5 as a loop, kyok as a function call, etc). Are you into baseball? Convert a box score into an inning-by-inning breakdown of the game, or write an api for a database of a particular player's statistics. Take a database of names and places from the Game of Thrones universe and generate a literal Fantasy League.</p></li>
-<li><p><strong>Use this opportunity to learn something new.</strong> My core idea about how to start a side project stems from James Altucher's concept of 'idea sex'. Take a few things you like and jam them together. Want to learn React? Take an interest of yours and find a tiny thing within that interest. Take that tiny thing and make a tiny React app. Something that performs and renders a simple calculation, or makes a call to a public API.</p></li>
+<li><p><strong>Use this opportunity to learn something new.</strong> My core idea about how to start a side project stems from James Altucher's concept of 'idea sex'. Take a few things you like and jam them together. Want to learn React? Take an interest of yours and find a tiny thing within that interest. Take that tiny thing and make a tiny React app. Something that performs and renders a simple calculation, or makes a call to a public API.</p>
+
+<p>Combining your entertainment interests with your professional interests is an intersection that leads to a great deal of inspiration.</p></li>
+<li><p><strong>It's all additive.</strong> I think that a lot of people, myself included, think of a side project like a baby horse. It pops out basically fully formed, can walk almost immediately. There are a few problems with this analogy, but bear with me. Even if you spend four or five hours over a week working on a project and decide to trash it, that in itself is an opportunity!</p>
+
+<p>Write a blogpost, or (if you're not into practicing publicly) a private journal entry, about how you spent those four hours. What you tried, how you failed and what you intend to do moving forward. This post-mortem analysis is so, so useful. It forces you to collate your thoughts and reflect. Hell, your reflection may uncover a solution to the problem you set out to solve in the first place!</p></li>
+<li><p><strong>The best time to start is yesterday. The next best time to start is right now.</strong> Exactly like the proverb about planting a tree. Make a commitment to yourself to spend a small amount of time every day thinking about and working on the project. 15 minutes, 30 minutes. Even if that time is spent staring at a blank piece of paper, agonizing about the fact that you have no actionable ideas.</p>
+
+<p>The mere fact that your ass is in a chair with the intent of 'make a neat thing' puts you far ahead of everyone rewatching the same show they've seen four times already, or playing a game that they only kind of enjoy just as a way to pass the time. I have been this exact person for a lot of my life.</p></li>
 </ul>
-
-<p>Combining your entertainment interests with your professional interests is an intersection that leads to a great deal of inspiration.</p>
-
-<ul>
-<li><strong>It's all additive.</strong> I think that a lot of people, myself included, think of a side project like a baby horse. It pops out basically fully formed, can walk almost immediately. There are a few problems with this analogy, but bear with me. Even if you spend four or five hours over a week working on a project and decide to trash it, that in itself is an opportunity! </li>
-</ul>
-
-<p>Write a blogpost, or (if you're not into practicing publicly) a private journal entry, about how you spent those four hours. What you tried, how you failed and what you intend to do moving forward. This post-mortem analysis is so, so useful. It forces you to collate your thoughts and reflect. Hell, your reflection may uncover a solution to the problem you set out to solve in the first place!</p>
-
-<ul>
-<li><strong>The best time to start is yesterday. The next best time to start is right now.</strong> Exactly like the proverb about planting a tree. Make a commitment to yourself to spend a small amount of time every day thinking about and working on the project. 15 minutes, 30 minutes. Even if that time is spent staring at a blank piece of paper, agonizing about the fact that you have no actionable ideas. </li>
-</ul>
-
-<p>The mere fact that your ass is in a chair with the intent of 'make a neat thing' puts you far ahead of everyone rewatching the same show they've seen four times already, or playing a game that they only kind of enjoy just as a way to pass the time. I have been this exact person for a lot of my life.</p>
 
 <h2>Splinters and Planks</h2>
 
