@@ -35,15 +35,15 @@
 
 <p>All of Zenyatta's abilities revolve around their use of Orbs.</p>
 
-<p><img src="/assets/img/zenyatta/harmonyanddiscord.gif" alt="orbs" /></p>
-
 <p>Zenyatta's main method of attack is to use <span style="color:blue"><strong>Orbs of Destruction</strong></span>. They can either fire the orbs one at a time or spend some time in focus, charging up their orbs. That charged attack, called an Orb Volley, fires the charged Orbs in rapid succession. If properly directed, the Orb Volley deals a significant amount of burst damage.</p>
 
 <p>In addition, Zenyatta can distribute two special Orbs. One of them, the <span style="color:purple"><strong>Orb of Discord</strong></span>, can only be placed on enemy characters.</p>
 
 <p>This Orb amplifies the damage that its recipient takes. It also places a marker above the affected character's head, giving Zen's teammates additional vision.</p>
 
-<p>The <span style="color:yellow"><strong>Orb of Harmony</strong></span>, on the other hand, is intended only for Zenyatta's team. This Orb provides 30 points of healing per second, and Zen can change the recipient of the Harmony Orb to any teammate within their line of sight with no cooldown.</p>
+<p>The <span style="color:C19D0D"><strong>Orb of Harmony</strong></span>, on the other hand, is intended only for Zenyatta's team. This Orb provides 30 points of healing per second, and Zen can change the recipient of the Harmony Orb to any teammate within their line of sight with no cooldown.</p>
+
+<p><img src="/assets/img/zenyatta/harmonyanddiscord.gif" alt="orbs" /></p>
 
 <p><span style="color:orange"><strong>Transcendence</strong></span>, Zenyatta's Ultimate Ability, is another beast entirely. When activated, Zenyatta channels a higher state of existence. They cannot use weapons or other abilities, but their movement speed increases dramatically and they provide 10 meter radius of healing at 300 health per second, <strong>ten times</strong> the rate of the Orb of Harmony.</p>
 
